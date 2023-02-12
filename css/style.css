@@ -1,0 +1,228 @@
+/*-------------------------------GIOI THIEU--------------------------------*/
+
+#section_gt {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.section-content {
+    width: 100%;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.section-content {
+    z-index: 1;
+}
+
+.section-content {
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sec_about .row-inner .col-left {
+    padding-right: 5%;
+    border-right: double #c30005;
+}
+
+.sec_about .row-inner .col-right {
+    padding-left: 6%;
+    border-left: double #c30005;
+}
+
+.introduce-main {
+    padding: 0 8px;
+}
+
+.introduce-heading {
+    margin: 0 0 10px;
+    font-size: 25px;
+}
+
+.introduce-content {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.introduce-content i {
+    margin-top: 4px;
+    margin-right: 12px;
+    font-size: 4rem;
+    color: #c30005;
+}
+
+.introduce-content p {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+
+/*-------------------------------LIEN HE ---------------------------------*/
+
+.breadcrumb-shop {
+    background: #fafafa;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-shop .breadcrumb-arrows {
+    padding: 15px 0;
+    background: transparent;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+.breadcrumb-shop a {
+    color: #272727;
+}
+
+.breadcrumb-shop a:hover {
+    text-decoration: none;
+    color: #272727;
+}
+
+.breadcrumb-shop .breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+    padding: 0 3px;
+}
+
+.breadcrumb-shop .breadcrumb-arrows li {
+    font-size: 13px;
+}
+
+.header-page-contact h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 0;
+}
+
+.header-page-contact:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin-top: 20px;
+    background: #272727;
+    margin-bottom: 30px;
+}
+
+.box-info-contact p {
+    margin-top: initial;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0px 0;
+}
+
+.box-info-contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.box-info-contact li {
+    margin-bottom: 30px;
+}
+
+.box-info-contact li p {
+    margin-bottom: 0;
+    color: #666;
+    font-weight: 500;
+}
+
+.box-info-contact li p strong {
+    color: #272727;
+}
+
+.box-send-contact h2 {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 40px 0 35px;
+}
+
+.box-send-contact h2:after {
+    content: "";
+    display: block;
+    margin-top: 25px;
+    width: 30px;
+    height: 3px;
+    background: #272727;
+}
+
+.contact-form .input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form .input-group input,
+.contact-form .input-group textarea {
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+    height: 45px;
+    font-weight: 500;
+    padding: 0 20px;
+    background: #fff;
+    color: #272727;
+    width: 100%;
+    font-size: 15px;
+}
+
+.contact-form .input-group textarea {
+    width: 100%;
+    height: 130px;
+    padding: 20px 20px;
+}
+
+.contact-form .input-group textarea:focus {
+    outline: none;
+}
+
+.wrapbox-content-page-contact {
+    padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-map iframe {
+        height: 400px !important;
+    }
+    .wrapbox-content-page-contact {
+        padding: initial;
+        padding: 25px;
+    }
+}
+
+
+/* do rong ban do */
+
+@media (min-width: 992px) {
+    .wrapbox-heading-account {
+        height: 100vh;
+        border-right: 1px solid #ededed;
+    }
+    .wrapbox-heading-account .header-page {
+        padding-bottom: 70px;
+    }
+    .box-heading-contact {
+        position: sticky;
+        top: 0;
+        border-right: 1px solid #ededed;
+        height: 100vh;
+        padding: 0;
+    }
+    .box-map iframe {
+        height: 100vh !important;
+    }
+}
+

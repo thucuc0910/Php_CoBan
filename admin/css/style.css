@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+.admin-content{
+    padding-top:  50px;
+    display: flex;
+}
+.admin-content-right{
+    width: 100%;
+    padding: 30px 0 0 12px;
+
+}
+.admin-content-right-cartegory-add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.admin-content-right-cartegory-add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+}
+.admin-content-right-cartegory-add button:hover{
+    background-color: transparent;
+    border:  1px solid brown;
+    color: brown;
+}
+/* * -------------Cartegory_List--------------- */
+.admin-content-right-cartegory-list table{
+    width: 100%;
+    text-align: center;
+
+}
+.admin-content-right-cartegory-list table tr th, td{
+    border:  1px solid #dddddd;
+}
+table{
+    border-collapse: collapse;
+}
+/* * --------------Product--------------------- */
+.admin-content-right-product-add input, select{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 6px 0 12px;
+    padding-left: 12px;
+    border: 1px solid black;
+}
+.admin-content-right-product-add textarea{
+    display: block;
+    height: 200px;
+    width: 500px;
+    margin-bottom: 12px;
+}
+.admin-content-right-product-add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+}
+.admin-content-right-product-add button:hover{
+    background-color: transparent;
+    border:  1px solid brown;
+    color: brown;
+}
+.product_size{
+    display: none;
+}
